@@ -5,6 +5,7 @@ import DistributorSection from "@/app/components/DistributorSection";
 import ReviewsSection from "@/app/components/ReviewsSection";
 import ContactSection from "@/app/components/ContactSection";
 import Footer from "@/app/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ReviewsSection />
       <ContactSection />
       <Footer />
+      <Analytics />
     </main>
   );
 }
